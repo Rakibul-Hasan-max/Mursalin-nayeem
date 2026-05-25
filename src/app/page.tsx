@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Sidebar from "../components/Sidebar";
-import SocialLinks from "../components/SocialLinks";
+import Sidebar from "../components/layout/Sidebar";
+import SocialLinks from "../components/shared/SocialLinks";
 
 export default function Page() {
   return (

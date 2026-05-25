@@ -1,6 +1,6 @@
-import Sidebar from "../../components/Sidebar";
-import ContactInfo from "../../components/ContactInfo";
-import ContactForm from "../../components/ContactForm";
+import Sidebar from "../../components/layout/Sidebar";
+import ContactInfo from "../../components/contact/ContactInfo";
+import ContactForm from "../../components/contact/ContactForm";
 
 export const metadata = {
   title: "Contact Me | Mursalin Nayeem",
