@@ -75,9 +75,15 @@ export default function Sidebar() {
       </div>
 
       {/* Footer */}
-      <div className="p-10">
+      <div className="px-10 pb-5 flex flex-col gap-1.5">
         <p className="text-[13px] text-gray-400 font-medium">
-          © 2026 Mursalin Nayeem
+          © {new Date().getFullYear()} Mursalin Nayeem    
+        </p>
+        <p className="text-[13px] text-gray-400 font-medium">
+          Build with ❤️ by {" "}
+          <Link href="https://rakibul.netlify.app" target="_blank" className="text-gray-400 hover:text-[#EE2A3B] transition-colors">
+            Rakibul Hasan
+          </Link>
         </p>
       </div>
     </aside>

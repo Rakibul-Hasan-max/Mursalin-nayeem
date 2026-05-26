@@ -12,7 +12,7 @@ export default function Page() {
       <main className="flex-1 ml-0 lg:ml-[280px] flex flex-col items-center justify-center min-h-screen px-6 py-20 lg:p-0">
         <div className="flex flex-col items-center -mt-10">
           {/* Profile Picture Container */}
-          <div className="relative w-[280px] h-[280px] rounded-full p-4 bg-white/40 shadow-[0_8px_30px_rgba(0,0,0,0.04)] mb-8 flex items-center justify-center">
+          <div className="relative w-[240px] h-[240px] sm:w-[280px] sm:h-[280px] rounded-full p-4 bg-white/40 shadow-[0_8px_30px_rgba(0,0,0,0.04)] mb-8 flex items-center justify-center">
             <div className="w-full h-full rounded-full overflow-hidden border-[6px] border-white bg-white">
               <Image
                 src="/images/pic1.jpeg"
@@ -26,10 +26,10 @@ export default function Page() {
           </div>
 
           {/* Name & Title */}
-          <h2 className="text-[40px] font-bold text-[#292D46] mb-2 tracking-tight">
+          <h2 className="text-[32px] sm:text-[40px] font-bold text-[#292D46] mb-2 tracking-tight text-center">
             Mursalin Nayeem
           </h2>
-          <p className="text-[17px] text-gray-500 font-medium mb-8">
+          <p className="text-[16px] sm:text-[17px] text-gray-500 font-medium mb-8 text-center">
             I'm an Apprentice Lawyer
           </p>
 
