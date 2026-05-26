@@ -1,6 +1,7 @@
 import Sidebar from "../../components/layout/Sidebar";
 import ContactInfo from "../../components/contact/ContactInfo";
 import ContactForm from "../../components/contact/ContactForm";
+import BookAppointment from "../../components/contact/BookAppointment";
 
 export const metadata = {
   title: "Contact Me | Mursalin Nayeem",
@@ -26,11 +27,21 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Contact Information */}
-        <ContactInfo />
+        {/* Content Wrapper */}
+        <div className="flex flex-col xl:flex-row gap-16 xl:gap-12 w-full max-w-[1400px]">
+          
+          {/* Left Side: Contact Info & Form */}
+          <div className="flex-1 max-w-4xl">
+            <ContactInfo />
+            <ContactForm />
+          </div>
 
-        {/* Contact Form */}
-        <ContactForm />
+          {/* Right Side: Book Appointment Widget */}
+          <div className="w-full xl:w-[400px]">
+            <BookAppointment />
+          </div>
+
+        </div>
       </main>
     </div>
   );
