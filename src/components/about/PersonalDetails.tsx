@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PersonalDetails() {
   const details = [
     { label: "Birthday", value: "19 Aug, 2001" },
@@ -24,9 +26,9 @@ export default function PersonalDetails() {
         <button className="bg-[#EE2A3B] text-white font-semibold rounded-full px-8 py-3.5 hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
           Download CV
         </button>
-        <button className="bg-[#EE2A3B] text-white font-semibold rounded-full px-8 py-3.5 hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
-          Hire Me
-        </button>
+        <Link href="/contact" className="bg-[#EE2A3B] text-white font-semibold rounded-full px-8 py-3.5 hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
+          Appointment
+        </Link>
       </div>
     </div>
   );
