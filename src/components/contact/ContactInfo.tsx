@@ -30,14 +30,14 @@ export default function ContactInfo() {
       <div className="flex flex-col items-center flex-1">
         <SolidMapPinIcon />
         <h3 className="text-[#292D46] font-bold text-[19px] mb-1">Address</h3>
-        <p className="text-gray-500 text-[15px]">Airport Road, Dhaka, Bangladesh</p>
+        <p className="text-gray-500 text-[15px]">Dakshin khan, Dhaka, Bangladesh</p>
       </div>
 
       {/* Email */}
       <div className="flex flex-col items-center flex-1">
         <SolidMailIcon />
         <h3 className="text-[#292D46] font-bold text-[19px] mb-1">Email</h3>
-        <p className="text-gray-500 text-[15px]">nayeeem@gmail.com</p>
+        <p className="text-gray-500 text-[15px]">mursalinnayeem9@gmail.com</p>
       </div>
     </div>
   );

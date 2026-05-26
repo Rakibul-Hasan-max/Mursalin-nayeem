@@ -3,7 +3,7 @@ export default function PersonalDetails() {
     { label: "Birthday", value: "19 Aug, 2001" },
     { label: "Age", value: "25" },
     { label: "Website", value: "mursalinnayeem.vercel.app" },
-    { label: "Email", value: "nayeeem@gmail.com" },
+    { label: "Email", value: "mursalinnayeem9@gmail.com" },
     { label: "Degree", value: "LLB" },
     { label: "Phone", value: "+880 1580 507157" },
     { label: "City", value: "Dhaka, Bangladesh" },
