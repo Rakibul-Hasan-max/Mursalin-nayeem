@@ -62,7 +62,7 @@ export default function BlogGrid() {
   return (
     <div className="w-full max-w-7xl mx-auto">
       {/* Filters */}
-      <div className="flex justify-center gap-8 mb-16">
+      <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-16">
         {filters.map(filter => (
           <button
             key={filter}

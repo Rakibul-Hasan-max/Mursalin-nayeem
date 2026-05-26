@@ -24,7 +24,7 @@ export default function PortfolioGrid() {
   return (
     <div className="w-full max-w-7xl mx-auto">
       {/* Filters */}
-      <div className="flex justify-center gap-8 mb-12">
+      <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-12">
         {filters.map(filter => (
           <button
             key={filter}

@@ -9,7 +9,7 @@ export default function Page() {
       <Sidebar />
 
       {/* Main Content */}
-      <main className="flex-1 ml-[280px] flex flex-col items-center justify-center min-h-screen">
+      <main className="flex-1 ml-0 lg:ml-[280px] flex flex-col items-center justify-center min-h-screen px-6 py-20 lg:p-0">
         <div className="flex flex-col items-center -mt-10">
           {/* Profile Picture Container */}
           <div className="relative w-[280px] h-[280px] rounded-full p-4 bg-white/40 shadow-[0_8px_30px_rgba(0,0,0,0.04)] mb-8 flex items-center justify-center">

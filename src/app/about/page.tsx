@@ -52,7 +52,7 @@ export default function AboutPage() {
       <Sidebar />
 
       {/* Main Content */}
-      <main className="flex-1 ml-[280px] flex flex-col min-h-screen pt-24 px-16 lg:px-24 pb-20">
+      <main className="flex-1 ml-0 lg:ml-[280px] flex flex-col min-h-screen pt-32 lg:pt-24 px-6 md:px-16 lg:px-24 pb-20">
         {/* Title Section */}
         <div className="mb-14">
           <h2 className="text-[40px] font-bold text-[#292D46] tracking-tight leading-none">
