@@ -6,10 +6,16 @@ import PortfolioCard from "./PortfolioCard";
 const projects = [
   { id: 1, title: "Criminal Defense", category: "Practice Areas", imageUrl: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800&auto=format&fit=crop" },
   { id: 2, title: "Smith vs State", category: "Featured Case", imageUrl: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxlZ2FsfGVufDB8fDB8fHww" },
-  { id: 3, title: "Legal Workshop", category: "Gallery", imageUrl: "https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=800&auto=format&fit=crop" },
+  { id: 3, title: "Legal Workshop", category: "Photography", imageUrl: "https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=800&auto=format&fit=crop" },
   { id: 4, title: "Corporate Law", category: "Practice Areas", imageUrl: "https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVnYWwlMjBhZ3JlZW1lbnR8ZW58MHx8MHx8fDA%3D" },
   { id: 5, title: "Landmark Win", category: "Featured Case", imageUrl: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=800&auto=format&fit=crop" },
   { id: 6, title: "Office Setup", category: "Photography", imageUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800&auto=format&fit=crop" },
+  { id: 7, title: "Nayeem", category: "Gallery", imageUrl: "/images/portfolio/1.png" },
+  { id: 8, title: "Nayeem", category: "Gallery", imageUrl: "/images/portfolio/2.png" },
+  { id: 9, title: "Nayeem", category: "Gallery", imageUrl: "/images/portfolio/3.png" },
+  { id: 10, title: "Nayeem", category: "Gallery", imageUrl: "/images/portfolio/4.png" },
+  { id: 11, title: "Nayeem", category: "Gallery", imageUrl: "/images/portfolio/5.png" },
+  { id: 12, title: "Nayeem", category: "Gallery", imageUrl: "/images/portfolio/6.png" },
 ];
 
 const filters = ["All", "Practice Areas", "Featured Case", "Gallery", "Photography"];
