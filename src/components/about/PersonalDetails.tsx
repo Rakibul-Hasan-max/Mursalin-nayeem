@@ -23,10 +23,10 @@ export default function PersonalDetails() {
         ))}
       </div>
       <div className="flex gap-4">
-        <button className="bg-[#EE2A3B] text-white font-semibold rounded-full px-8 py-3.5 hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
+        <button className="bg-[#EE2A3B] text-white font-semibold rounded-full px-5 sm:px-8 py-3.5 whitespace-nowrap hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
           Download CV
         </button>
-        <Link href="/contact" className="bg-[#EE2A3B] text-white font-semibold rounded-full px-8 py-3.5 hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
+        <Link href="/contact" className="bg-[#EE2A3B] text-white font-semibold rounded-full px-5 sm:px-8 py-3.5 whitespace-nowrap hover:-translate-y-1 transition-transform shadow-[0_4px_10px_rgba(238,42,59,0.3)] hover:shadow-[0_6px_15px_rgba(238,42,59,0.4)]">
           Appointment
         </Link>
       </div>
